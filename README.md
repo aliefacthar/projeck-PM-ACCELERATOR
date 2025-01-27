@@ -1,9 +1,9 @@
 # projeck-PM-ACCELERATOR
 Data scince and Forecasting Project
-#Introduction
+# Introduction
 This project focuses on cleaning, exploring, and analyzing data to extract valuable insights. The goal is to build robust forecasting models to predict future trends and create visually appealing dashboards to support data-driven decision-making. The project is designed to help individuals acquire data analysis and forecasting skills applicable to any domain.
 
-#Objectives
+# Objectives
 To clean and preprocess raw data for accurate analysis.
 To perform Exploratory Data Analysis (EDA) to uncover trends and patterns in the data.
 To develop forecasting models to predict key metrics (e.g., sales, growth rates).
@@ -11,7 +11,7 @@ To provide actionable insights through advanced analysis and visualizations.
 To present findings in a clear, structured report or dashboard.
 Dataset Information
 
-#The dataset used in this project contains the following columns:
+# The dataset used in this project contains the following columns:
 Date: The date of observation.
 Country/Region: Geographical region of the data.
 Confirmed: Number of confirmed cases.
@@ -20,13 +20,13 @@ Recovered: Number of recovered cases.
 Active: Number of active cases at a given time.
 The dataset was cleaned to remove missing values, handle outliers, and ensure consistency for analysis.
 
-#Key Insights
+# Key Insights
 Confirmed cases and active cases exhibit seasonality, making them predictable with time-series models.
 Recovery rates vary significantly across regions, highlighting the importance of localized interventions.
 Advanced models such as ARIMA and Prophet accurately predict trends with low error margins.
 Visualizations effectively showcase trends, anomalies, and key drivers of changes in the data.
 
-#Technologies Used
+# Technologies Used
 Python: Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, and Prophet for data analysis and forecasting.
 Power BI: For interactive dashboard creation.
 GitHub: For version control and collaboration.
@@ -35,18 +35,19 @@ GitHub: For version control and collaboration.
 Link presentation = https://www.canva.com/design/DAGdXIsxiiE/jC--8UUSBMRfTlFsb5Rgmw/edit?utm_content=DAGdXIsxiiE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 Documentation = https://drive.google.com/drive/folders/1ninoDssWCfP7US1YTgCWybRr1Wgb1gY6?usp=drive_link
 
-#For questions or collaboration, please contact:
+# For questions or collaboration, please contact:
 Name: Alief
 Email: aliefabdur8@gmail.com
 LinkedIn:(https://www.linkedin.com/in/abdurrahman-alief-acthar-66aa08314/)
 
 
-#code 
-#import data
+# code 
+# import data
 import pandas as pd 
 data = pd.read_csv(r"C:\Users\TOSHIBA\Documents\projeck data analis\word\GlobalWeatherRepository.csv")
-data.isnull().sum()  # Count the number of missing values
-# Data cleaning
+data.isnull().sum()  
+
+# Count the number of missing values
 data.duplicated().sum()  # Count the number of duplicate rows
 data.dtypes  # Show data types of each column
 data.head(3)  # Display the first 3 rows of the dataset
