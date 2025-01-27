@@ -20,37 +20,6 @@ Recovered: Number of recovered cases.
 Active: Number of active cases at a given time.
 The dataset was cleaned to remove missing values, handle outliers, and ensure consistency for analysis.
 
-Steps to Reproduce
-To replicate the results of this project, follow these steps:
-
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/data-analysis-forecasting-project.git  
-cd data-analysis-forecasting-project  
-Install the required libraries:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt  
-Open the Jupyter Notebook in the notebooks folder:
-
-bash
-Copy
-Edit
-jupyter notebook notebooks/EDA_and_forecasting.ipynb  
-Run the notebook to:
-
-Clean and preprocess the dataset.
-Conduct Exploratory Data Analysis (EDA).
-Train forecasting models (e.g., ARIMA, Prophet).
-Explore visualizations in the visualizations folder or open the Power BI dashboard (dashboard.pbix).
-
-Refer to the report/final_report.pdf for detailed insights and findings.
-
 Key Insights
 Confirmed cases and active cases exhibit seasonality, making them predictable with time-series models.
 Recovery rates vary significantly across regions, highlighting the importance of localized interventions.
