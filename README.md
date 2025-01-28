@@ -1,4 +1,4 @@
-# projeck-PM-ACCELERATOR
+# Forecast Fusion Accelerator
 Data scince and Forecasting Project
 # Introduction
 This project focuses on cleaning, exploring, and analyzing data to extract valuable insights. The goal is to build robust forecasting models to predict future trends and create visually appealing dashboards to support data-driven decision-making. The project is designed to help individuals acquire data analysis and forecasting skills applicable to any domain.
